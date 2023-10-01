@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
                                     color: Colors.black,
                                     child: LayoutBuilder(
                                       builder: (BuildContext context, BoxConstraints contraints){
-                                        if(contraints.maxWidth>=500){
+                                        if(contraints.maxWidth>=450){
                                           return Text("Lal Gulu", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),);
                                         } else{
                                           return Center(child: Text("Lal Gulu", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),));
